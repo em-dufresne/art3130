@@ -1,0 +1,27 @@
+body {
+    background-color: #008688; 
+    font-family: sans-serif;
+}
+h1 {
+    color: red;
+}
+h2 {
+    color:aqua;
+}
+h3 {
+    color:lightyellow;
+}
+
+div{
+    border: 2px solid red;
+    border-width: 2px;
+    border-style: groove;
+    border: 2px solid lightyellow
+}
+
+.class-name {
+    border-color: green;
+}
+#id-name {
+    background: yellow;
+}
