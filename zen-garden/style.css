@@ -14,10 +14,10 @@ html {
 	padding: 0;
 	}
 body { 
-	font: 80% garamond, sans-serif;
+	font: 80% futura, sans-serif;
 	line-height: 1.88889;
 	color: #98890c; 
-	background: red url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	background: #dcdacd45 url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
 	}
