@@ -1,11 +1,16 @@
+.menu {
+    font: lato;
+    padding: .5px 1px 2px;
+    color:aqua;
+}
+
 .header {
-    text-align: ;
-    color: grey;
+    color: #4A4949;
 
 }
 .header h1 {
-    padding: 65px;
-    font-family:Georgia;
+    padding: 2.5px 30px 65px;
+    font-family:lato;
     font-size:60px;
 
 }
@@ -33,18 +38,19 @@
 /* This is the end of the media query */
 
 /* is this p2 class being used? */
-.p2 {
-    font-family: lato;
-    font-size: 30px;
-    position: absolute;
-    padding-top: 20px;
-    bottom: 10px;
-    color: slategrey
 
-}
+
 
 /* PORTFOLIO STYLES */
 
+.grid-container h2 {
+    font-family: lato;
+    font-size: 40px;
+    position: ;
+    padding:0 0rem 2rem;
+    bottom: 10px;
+    color: #4A4949;
+}
 .portfolio-item {
   background-color: #4A4949;
 }
@@ -62,9 +68,6 @@
   font-size: 1.4em;
   position: relative;
   top:-20px;
-<<<<<<< Updated upstream
-}
-=======
   font: lato;
   color:#4A4949;
 }
@@ -183,4 +186,3 @@
     margin: 0 0 1em;
     width: 100%;
 }
->>>>>>> Stashed changes
