@@ -62,4 +62,125 @@
   font-size: 1.4em;
   position: relative;
   top:-20px;
+<<<<<<< Updated upstream
 }
+=======
+  font: lato;
+  color:#4A4949;
+}
+
+/* CONTACT FORM STYLES */
+
+.data-abide novalidate {
+    padding:10px 40px;
+  margin:0 auto;
+}
+
+/* Digital Portfolio */
+
+.grid-container h4 {
+   font-family: lato;
+    font-size: 40px;
+    position: center ;
+    padding:0 rem 2rem;
+    bottom: 10px;
+    color: #4A4949;
+}
+.grid-container p {
+    max-width: rem;
+
+}
+
+#project1{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project2{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project3{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project4{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+#project5{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project6{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project7{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project8{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project9{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project10{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+/* Digital Portfolio Masonry Grid */
+
+.masonry-css { /* Masonry container */
+    column-count: 4; /* set the number of columns you want here */
+    column-gap: 1em;
+}
+
+.masonry-css-item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+>>>>>>> Stashed changes
