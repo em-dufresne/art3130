@@ -1,16 +1,42 @@
 .menu {
     font: lato;
     padding: .5px 1px 2px;
-    color:aqua;
+    color:#4A4949;
 }
+
+
+.menu a {
+color: #4A4949; /* controls the font color of the link text */
+}
+
+.menu a:hover {
+color: #4A4949; /* controls the color of the link text when you roll your mouse over it */
+}
+
+.menu .button {
+background-color: #4A4949; /* controls the color of the button */
+color: #4A4949; /* controls the color of the text of the button */
+}
+
+.menu .button:hover {
+background-color: #4A4949; /* controls the color of the button on hover */
+color: #4A4949; /* controls the color of the text of the button on hover */
+}
+
+.menu li {
+  background-color: ; /* controls the color of the button on hover */
+color: #4A4949;  
+}
+
+
 
 .header {
     color: #4A4949;
 
 }
 .header h1 {
-    padding: 2.5px 30px 65px;
-    font-family:lato;
+    padding: 30px 30px 65px;
+    font-family:Lato;
     font-size:60px;
 
 }
@@ -18,6 +44,8 @@
 .header p {
     font-family:lato;
     font-size:15px;
+    padding: 2.5rem 2.5rem 0rem;
+    
 
 }
 /* This media query means those styles will only apply to screens larger than 650px wide, so on mobile they will still stack instead of having the text overlapping the image */
@@ -30,15 +58,20 @@
 
   .header p {
       position: absolute;
-      bottom: 20px;
-      max-width: 40rem; /* limiting the width from going too big on large screens */
+      bottom: 2px;
+      max-width: 30rem; /* limiting the width from going too big on large screens */
 
   }
+   
+
 }
 /* This is the end of the media query */
 
-/* is this p2 class being used? */
-
+/* ABOUT STYLES */
+.grid-container ol{
+    padding: 2 rem;
+    
+}
 
 
 /* PORTFOLIO STYLES */
@@ -47,7 +80,7 @@
     font-family: lato;
     font-size: 40px;
     position: ;
-    padding:0 0rem 2rem;
+    padding:5rem 0rem 1rem;
     bottom: 10px;
     color: #4A4949;
 }
@@ -74,23 +107,80 @@
 
 /* CONTACT FORM STYLES */
 
-.data-abide novalidate {
-    padding:10px 40px;
-  margin:0 auto; 
+
+.contact-me-section {
+  padding: 1rem 5rem 7rem 18rem;
+  background: #fefefe;
 }
+
+
+@media print, screen and (min-width: 40em) {
+  .contact-me-section .contact-me-section-left {
+    border-right: 1px solid #fff;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media print, screen and (min-width: 40em) {
+  .contact-me-section .contact-me-section-right {
+    border-left: 1px solid #e6e6e6;
+  }
+}
+
+.contact-me-section .contact-me-header {
+  margin-bottom: 2rem;
+  font: lato;
+    
+}
+
+@media screen and (min-width: 20em) and (max-width: 40em) {
+  .contact-me-section .contact-me-header {
+    font-size: 20px;
+  }
+}
+
+.contact-me-section .responsive-embed {
+  margin-bottom: 0;
+  padding-bottom: 55%;
+ 
+}
+.contact-me-section .responsive-embed a{
+  font:lato;
+  color:;  
+}
+
+.contact-me-form input[type=text],
+.contact-me-form input[type=email],
+.contact-me-form textarea {
+  margin-bottom: 1.5rem;
+}
+
+.contact-me-form-actions input[type=submit] {
+  border-radius: px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+/* END CONTACT */
+
+
 
 /* Digital Portfolio */
 
 .grid-container h4 {
    font-family: lato;
     font-size: 40px;
-    position: center ;
+    text-align: center;
     padding:0 rem 2rem;
     bottom: 10px;
     color: #4A4949; 
 }
 .grid-container p {
-    max-width: rem;
+    max-width: 75rem;
+    text-align: center;
+    padding: 2rem
+
     
 }
 
@@ -173,15 +263,179 @@
     padding:40px 100px 100px 80px;
 }
 
-/* Digital Portfolio Masonry Grid */
+#project11{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
 
-.masonry-css {
-  -webkit-column-count: 1;
-          column-count: 1;
-  -webkit-column-gap: 1rem;
-          column-gap: 1rem;
+#project12{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project13{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project14{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project15{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project16{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project17{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project18{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project19{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project20{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project21{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project22{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project23{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project24{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project25{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project26{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project27{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project28{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project29{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
+}
+
+#project30{
+    background:rgba(74,73,73,.82);
+    padding: 10px 40px;
+    color: white;
+    font: lato;
+    padding:40px 100px 100px 80px;
 }
 
 
+/* Digital Portfolio Masonry Grid */
+
+.masonry-css { /* Masonry container */
+    column-count: 4; /* set the number of columns you want here */
+    column-gap: 1em;
+}
+
+.masonry-css-item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
 
     
